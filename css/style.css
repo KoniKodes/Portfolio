@@ -1,0 +1,125 @@
+body {
+    margin:0;
+	border:0;
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+	font-family: "Times New Roman", serif;
+    color: #333333;
+    background-color:#fbe0c9;
+}
+.nav-default{
+	background-color:#f3dac4;
+	height:1px;
+	padding: 0 3px 0 0;
+}
+#container{
+   display:inline-block;
+   margin-top:3px;
+}
+#about, #services, #portfolio, #contact{
+   margin:3em;
+   padding:3em;
+}
+#hero{
+	margin:0 auto;
+	padding:0;
+}
+	#hero h2{
+	color:#004f69;
+}
+	 #hero h3{
+	  color:#86500b;
+}
+.hero1{
+    margin:0 auto;
+} 
+.turq{
+    color:#004f69;
+	
+}
+.tan{
+    color:#7d500b;
+}
+.turqh{
+    color:#004f69;
+	font-size:1.3em;
+}
+.tanh{
+    color:#7d500b;
+	font-size:1.3em;
+}
+.turq2{
+    color:#004f69;
+	font-size:1.2em;
+}
+.tan2{
+    color:#7d500b;
+	font-size:1.2em;
+}
+hr{
+   height:.2em;
+   width:90%;
+   background-color:#7ff6e1;
+}
+
+#innerContent{
+    display:block;
+	width:85%;
+	max-width:850px;
+	margin:0 auto;
+	padding:0;
+	font-size:1.2em;
+	line-height:1.5em;
+	overflow:hidden;
+}
+.port-wrap{
+    display:inline-block;
+	margin:0 auto;
+}
+
+.port{
+    font-size:1.2em;
+    color:#004f69;
+}
+.myself{
+   width:75%;
+   margin:5px 0 0 0;
+}
+
+.folio{
+    margin:0;
+} 
+
+
+ .prodwrap{
+  margin:0 auto;
+  display:inline-block;
+ }
+ 
+ .schedule{
+    background-color:#7ff6e1;
+	border-style:solid;
+	border-width:.2em;
+	border-color:#004f69;
+	border-radius:4px;
+	font-size:1.1em;
+	color:#7d500b;
+	width:100%;
+	margin:0 auto;
+	padding:1em;
+ }
+ .ftr-link{
+    float:none;
+	width:100%;
+	margin:0 auto;
+}
+.ftr-link a{ 
+	color: #7d500b;
+	text-decoration: none;
+	cursor:pointer;
+}
+.social {
+    width:75px;
+	margin:0 auto;
+	padding:0 25px;
+	cursor: pointer;
+}
