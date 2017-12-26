@@ -1,0 +1,57 @@
+body{
+  max-width:960;
+  color:000;
+  font-family: "Times New Roman", serif;
+ }
+.hero{
+  width:90%;
+}
+
+h1 {
+  color:blue;
+}
+.timeline {
+  margin:0 10%;
+  font-size: 1.25em;
+}
+.turq{
+    color:#004f69;
+}
+.tan{
+    color:#7d500b;
+} 
+.quote {
+	margin: 0 15%;
+}
+@media only screen and (min-width:320px) and (max-width:700px){
+body {
+	width:100%;
+    height:100%;
+	margin:0 auto;
+}
+#wrap {
+   height:100%;
+   width:100%;
+   overflow:auto;
+}
+#hero{
+    margin:0 auto;
+	width:100%;
+	height:auto;
+}
+h1{
+   font-size:1.7em;
+}
+h3{
+   font-size:1.5em;
+}
+h4{
+   font-size: 1.2em;
+   line-height: 1.3em;
+   margin:0;
+   padding:0;
+}
+.timeline{
+   margin: 0 auto;
+}
+}
