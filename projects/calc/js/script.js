@@ -29,7 +29,7 @@ $(".equlz").click(function(){
 	  }else{
       var subtot = document.getElementById("result").innerHTML;
       var final = eval(subtot);
-   	$("#result").append(" = " + final);
+   	$("#result").append(" = " + final.toFixed(2));
 }
 
 $(".clr").click(function() {
