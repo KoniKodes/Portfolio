@@ -21,7 +21,7 @@ body {
    padding:1em 0;
 }
 h1{
-  color:#7ff6e1;
+  color:#004f69;
   font-family: "Monotype Corsiva", cursive; !important
 }
 #hero{
@@ -31,7 +31,7 @@ h1{
 	border-radius:5px;
 }
 #hero h1{
-        color:#7ff6e1;
+        color:#004f69;
 	font-family: "Monotype Corsiva", cursive; !important
 }
 #hero h2{
