@@ -22,7 +22,7 @@ body {
 }
 h1{
   color:#004f69;
-  font-family: "Monotype Corsiva", cursive;
+  font-family: "Monotype Corsiva", cursive; !important
 }
 #hero{
 	margin:0 auto;
@@ -32,7 +32,7 @@ h1{
 }
 #hero h1{
 	color:#004f69;
-	font-family: "Monotype Corsiva", cursive;
+	font-family: "Monotype Corsiva", cursive; !important
 }
 #hero h2{
 	color:#004f69;
