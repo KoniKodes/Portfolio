@@ -1,7 +1,7 @@
 body {
-    margin:71px 0 0 0;
+    margin:0;
 	border:0;
-	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+	padding-top: 40px; /* 60px to make the container go all the way to the bottom of the topbar */
 	font-family: "Times New Roman", serif;
     color: #333333;
     background-color:#fbe0c9;
@@ -11,19 +11,24 @@ body {
 	height:1px;
 	padding: 0 3px 0 0;
 }
-#container{
+#inner-container{
    display:inline-block;
-   margin-top:3px;
+   margin:0 auto;
+   width:100%;
 }
 #about, #services, #portfolio, #contact{
    margin:1.5em 0 0;
    padding:1em 0;
 }
-
+h1{
+	color:#004f69;
+	font-family: "Monotype Corsiva", cursive;
+}
 #hero{
 	margin:0 auto;
 	padding:0;
 	width: 100%;
+	border-radius:5px;
 }
 #hero h2{
 	color:#004f69;
@@ -33,6 +38,7 @@ body {
 }
 .hero1{
     margin:0 auto;
+	border-radius:5px;	
 }
  
 .turq{
