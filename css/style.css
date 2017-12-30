@@ -20,15 +20,15 @@ body {
    margin:1.5em 0 0;
    padding:1em 0;
 }
-h1{
-	color:#004f69;
-	font-family: "Monotype Corsiva", cursive;
-}
 #hero{
 	margin:0 auto;
 	padding:0;
 	width: 100%;
 	border-radius:5px;
+}
+#hero h1{
+	color:#004f69;
+	font-family: "Monotype Corsiva", cursive;
 }
 #hero h2{
 	color:#004f69;
