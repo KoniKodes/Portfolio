@@ -1,3 +1,12 @@
+/*  Colors
+    ******
+#fbe0c9 -- body background
+#f3dac4 -- navbar background
+
+#004f69 -- turq
+#86500b	-- tan
+*/
+
 body {
     margin:0;
 	border:0;
@@ -20,10 +29,7 @@ body {
    margin:1.5em 0 0;
    padding:1em 0;
 }
-h1{
-  color:#004f69;
-  font-family: "Monotype Corsiva", cursive; !important
-}
+
 #hero{
 	margin:0 auto;
 	padding:0;
@@ -31,8 +37,8 @@ h1{
 	border-radius:5px;
 }
 #hero h1{
-        color:#004f69;
-	font-family: "Monotype Corsiva", cursive; !important
+	color:#004f69;
+	font-family: "Monotype Corsiva", cursive;
 }
 #hero h2{
 	color:#004f69;
@@ -182,16 +188,20 @@ hr{
 }
 
 .myself{
-   width:75%;
+
    margin:0;
 }
-
+.iam{
+   max-width:100%;
+   border-radius: 4px;
+}
 .folio{
   margin:0;
-  display: hidden;
-  width: 100%;
+  padding:0;
+
   height: auto;
   color: #fbf2ea;
+  border-radius: 6px;
 }
 
 .nxtlvl {
