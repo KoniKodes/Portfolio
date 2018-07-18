@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Koni's Kokonut Dance</title>
+<meta name="description" content="Simon Says"/>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" /> 
+<meta charset="utf-8"/>
+<!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css"> 
+
+   <audio id="kiwisnd" src=https://konikodes.com/fcc/simon/img/kiwi.mp3 type="audio/mgeg autostart="false"></audio>
+   <audio id="pinesnd" src=https://konikodes.com/fcc/simon/img/pine.mp3 type="audio/mgeg autostart="false"></audio>
+   <audio id="mangosnd" src=https://konikodes.com/fcc/simon/img/mango.mp3 type="audio/mgeg" autostart="false"></audio>
+   <audio id="passionsnd" src=https://konikodes.com/fcc/simon/img/passion.mp3 type="audio/mgeg" autostart="false"></audio>
+   <audio id="wrongsnd" src=https://konikodes.com/fcc/simon/img/wrong.mp3 type="audio/mgeg" autostart="false"></audio>
+   <audio id="lostsnd" src=https://konikodes.com/fcc/simon/img/lost.mp3 type="audio/mgeg" autostart="false"></audio>
+   <audio id="winnersnd" src=https://konikodes.com/fcc/simon/img/winner.mp3 type="audio/mgeg" autostart="false"></audio>
+</head>
+<body>
+  <div id="wrap" class="container-fluid pull-center">
+<div class="hero text-center">
+<h1>Do <em>What</em> with the Coconut?</h1>
+<h3>A Simon Says &mdash; 
+  Style Game</h3>
+   <span id="msg2"></span><br/>
+</div><!-- close hero -->
+<div id="columnContent" class="pull-center text-center">
+  <div id="board">
+
+   <div class="row kiwipine row-fluid">
+   <div id = "0" class = "space coco pull-left"></div>
+   <div id = "1" class = "space coco pull-right"></div>
+   </div>
+
+    <div class="row mangopassion row-fluid">
+   <div id = "2" class = "space coco pull-left"></div>
+   <div id = "3" class = "space coco pull-right"></div>
+   </div>
+   
+   </div><!-- board -->
+   
+   <div id="control" class="pull-right">
+   <span id="msg"></span><br/>
+   <span id="msg1"></span>
+<div id="round"> Round: <span class="roundNum"></span></div>
+<div id="strict"> Strict Mode: <span class="strictMode">OFF</span><br/>
+<button id="strictOn" class="btn btn-success" value="strictOn"> On </button>
+<button id="strictOff" class="btn btn-warning" value="strictOff"> Off </button></div>
+<button id="start" class="btn" value="start"> Start </button>
+<button id="reset" class="btn" value="reset"> Reset </button>
+</div>
+</div><!-- columnContent -->
+<div class="skiwi">
+        <audio preload="auto" id="kiwisnd">
+          <source src="https://konikodes.com/fcc/simon/img/kiwi.mp3" type="audio/mgeg" autostart="false" />
+          <source src="https://konikodes.com/fcc/simon/img/kiwi.ogg" type="audio/ogg" autostart="false" />
+        </audio>
+      </div>
+
+<div class="spine">
+        <audio preload="auto" id="pinesnd">
+          <source src="https://konikodes.com/fcc/simon/img/pine.mp3" type="audio/mgeg" autostart="false" />
+          <source src="https://konikodes.com/fcc/simon/img/pine.ogg" type="audio/ogg" autostart="false" />
+        </audio>
+      </div>
+	  
+<div class="smango">
+        <audio preload="auto" id="mangosnd">
+          <source src="https://konikodes.com/fcc/simon/img/mango.mp3" type="audio/mgeg" autostart="false" />
+          <source src="https://konikodes.com/fcc/simon/img/mango.ogg" type="audio/ogg" autostart="false" />
+        </audio>
+      </div>	
+	    
+<div class="spassion">
+        <audio preload="auto" id="passionsnd">
+          <source src="https://konikodes.com/fcc/simon/img/passion.mp3" type="audio/mgeg" autostart="false" />
+          <source src="https://konikodes.com/fcc/simon/img/passion.ogg" type="audio/ogg" autostart="false" />
+        </audio>
+      </div>	 
+
+<div class="swrong">
+        <audio preload="auto" id="wrongsnd">
+          <source src="https://konikodes.com/fcc/simon/img/wrong.mp3" type="audio/mgeg" autostart="false" />
+          <source src="https://konikodes.com/fcc/simon/img/wrong.ogg" type="audio/ogg" autostart="false" />
+        </audio>
+      </div>	
+	
+	<div class="slost">
+        <audio preload="auto" id="lostsnd">
+          <source src="https://konikodes.com/fcc/simon/img/lost.mp3" type="audio/mgeg" autostart="false" />
+          <source src="https://konikodes.com/fcc/simon/img/lost.ogg" type="audio/ogg" autostart="false" />
+        </audio>
+      </div>	  
+	  
+	<div class="swinner">
+        <audio preload="auto" id="winnersnd">
+          <source src="https://konikodes.com/fcc/simon/img/winner.mp3" type="audio/mgeg" autostart="false" />
+          <source src="https://konikodes.com/fcc/simon/img/winner.ogg" type="audio/ogg" autostart="false" />
+        </audio>
+      </div>	  
+</div> <!-- wrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script> 
+	 <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	 <script type="text/javascript" src="js/3dance.js"></script>
+
+</body>
+</html> 
