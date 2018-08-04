@@ -1,5 +1,5 @@
 # Portfolio
-This was my first FreeCodeCamp project. It was built using html, css and Bootstrap.  
+This was my first FreeCodeCamp project. It was built using HTML, CSS and Bootstrap.  
 
 Feel free to visit my projects and contact me with any questions.  
 
